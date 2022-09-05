@@ -3,7 +3,7 @@ I altered the api a little. I added users and formed a relationship betwwen user
 You can:
 
 -- Create a new user <br />
--- Delete a user and all it's todos <br />
+-- Delete a user and all its todos <br />
 -- Change your user name <br />
 -- Change between light and dark modes in the To Do Screen (not in user creation screen. It always will be on light mode.) <br />
 -- Create a new to do <br />
