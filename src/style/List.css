@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(254, 231, 21);
+  zoom: 200%;
+}
+
+.centeredContainer {
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  background-color: rgb(16, 24, 32);
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-bottom: 1%;
+  overflow: hidden;
+  color: white;
+  margin: auto;
+  margin-top: 1%;
+  padding: 10px;
+  display: flex;
+  width: 50%;
+}
+
+.topInput {
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  margin: 3%;
+}
+
+::placeholder {
+  color: white;
+}
+
+.topInput:hover {
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  margin: 3%;
+}
+
+input,
+input:hover,
+input:active,
+input:disabled {
+  border-color: transparent;
+  background: transparent;
+  border-radius: 10px;
+  border-style: none;
+  outline-offset: 0;
+  box-shadow: none;
+  color: black;
+  outline: none;
+  padding: 1%;
+  border: 0;
+}
+
+.inputText {
+  color: white !important;
+}
+
+input:focus {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: transparent;
+  border-radius: 10px;
+  border-style: none;
+  outline-offset: 0;
+  overflow: hidden;
+  outline: none;
+  padding: 1%;
+  border: 0;
+}
+
+button {
+  background-color: rgb(16, 24, 32);
+  color: rgba(0, 0, 0, 0.7);
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  border: none;
+  margin: auto;
+  padding: 1%;
+}
+
+button:hover {
+  background-color: rgb(235, 235, 235);
+  color: black;
+}
+
+.icons {
+  align-self: center;
+  margin-left: 10%;
+  margin-right: 0%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.userBar {
+  justify-content: flex-end;
+  margin-right: 0.5%;
+  align-self: center;
+  display: flex;
+  margin-top: 0%;
+}
+
+.userBarIcons {
+  align-self: center;
+  margin-right: 0%;
+  margin-left: 1%;
+}
+
+.userName {
+  width: min-content !important;
+  text-align: right;
+  margin-right: 0%;
+}
+
+.darkModeIcon {
+  align-self: center;
+  margin-right: auto;
+  margin-left: 1%;
+}
+
+.darkModeBody {
+  background-color: rgb(0, 0, 0);
+}
+
+.darkModeTextAndIcons {
+  color: white !important;
+}
+
+.darkModeInputBg,
+.darkModeInputBg:focus,
+.darkModeInputBg:hover {
+  background-color: rgb(0, 0, 0) !important;
+  border-color: white !important;
+  border-style: solid !important;
+  border: 1px;
+}
+
+.darkModeCenteredContainer {
+  background-color: rgb(0, 0, 0) !important;
+  border-color: white !important;
+  border-style: solid !important;
+}
+
+.darkModeButton {
+  background-color: rgb(0, 0, 0) !important;
+  border-color: white !important;
+  border-style: solid !important;
+  border: 1px;
+}
+
+.darkModeButton:hover {
+  background-color: white !important;
+  border-color: gray !important;
+  border-style: solid !important;
+  border: 1px;
+}
