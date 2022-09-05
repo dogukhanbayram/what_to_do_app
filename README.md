@@ -1,6 +1,6 @@
 I altered the api a little. I added users and formed a relationship betwwen users and todos.
 
-#You can:
+You can:
 
 -- Create a new user <br />
 -- Delete a user and all its todos <br />
@@ -12,7 +12,7 @@ I altered the api a little. I added users and formed a relationship betwwen user
 -- Delete any to do <br />
 -- Delete all completed todos <br />
 
-##How to run:
+How to run:
 
 First run :
 ### `npm install`
