@@ -119,6 +119,8 @@ export default function TodoScreen() {
   async function createTodo() {
     if (content === "")
       return alert("To do content can not be empty!");
+    if (content.length < 3)
+            return alert("To do can not be shorter than 3 characters!");
 
     await axios.post(API_URL_TODOS, { content }).then(() => fetchTodos());
     ref.current.value = "";
@@ -140,6 +142,8 @@ export default function TodoScreen() {
   async function onEditSubmit() {
     if (userName === "")
       return alert("User Name can not be empty!");
+    if (userName.length < 3)
+        return alert("User Name can not be shorter than 3 characters!");
 
     setEdit(false);
     var id = state.id;

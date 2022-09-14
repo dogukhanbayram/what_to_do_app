@@ -45,6 +45,8 @@ export default function Login() {
     async function createUser() {
         if (userName === "")
             return alert("User Name can not be empty!");
+        if (userName.length < 3)
+            return alert("User Name can not be shorter than 3 characters!");
 
         setUserName(userName);
         await axios.post(API_URL_USERS, { userName }).then(() => fetchUsers());

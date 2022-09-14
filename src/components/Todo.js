@@ -40,6 +40,8 @@ export default function Todo({ todo, fetch, API_URL_TODOS, darkMode }) {
     async function onEditSubmit() {
         if (content === "")
             return alert("To do content can not be empty!");
+        if (content.length < 3)
+            return alert("To do can not be shorter than 3 characters!")
 
         setEdit(false);
         var id = todo.id;
